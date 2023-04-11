@@ -1,7 +1,7 @@
 <?php
 require_once('config.php');
 
-$sql = "CREATE TABLE `products` (
+$sql = "CREATE TABLE `kibanda` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `product_id` int(11) DEFAULT NULL,
   `product_name` varchar(20) DEFAULT NULL,
