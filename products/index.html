@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Management</title>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #F5F5F5;
+		}
+		h1 {
+			text-align: center;
+			font-size: 36px;
+			color: #333;
+			margin-top: 50px;
+		}
+		p {
+			text-align: center;
+			font-size: 20px;
+			color: #666;
+			margin-top: 20px;
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		li {
+			margin: 20px;
+			padding: 10px 20px;
+			background-color: #FFF;
+			border: 1px solid #CCC;
+			border-radius: 5px;
+			box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+			transition: all 0.3s ease-in-out;
+			cursor: pointer;
+			text-align: center;
+			font-size: 18px;
+			color: #333;
+			text-decoration: none;
+		}
+		li:hover {
+			transform: translateY(-5px);
+			box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+		}
+		li a {
+			color: #333;
+			text-decoration: none;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Product Management System</h1>
+	<p>Welcome to our product management system. Please select an option below:</p>
+	<ul>
+		<li><a href="create_table.php">Create Table</a></li>
+		<li><a href="insert_script.php">Insert Record</a></li>
+		<li><a href="alter_script.php">Edit Record</a></li>
+		<li><a href="delete_script.php">Delete Record</a></li>
+	</ul>
+</body>
+</html>
